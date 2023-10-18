@@ -1,0 +1,35 @@
+:root {
+    --bg-light: white; /* Define a CSS variable for the light background color */
+    --bg-dark: black; /* Define a CSS variable for the dark background color */
+}
+
+/* Set the background color based on the defined CSS variables */
+body {
+    background-color: var(--bg-light); /* Use the light background color by default */
+}
+
+/* Use the dark variant to set background color for dark mode */
+.dark body {
+    background-color: var(--bg-dark); /* Use the dark background color in dark mode */
+}
+/* Default styles for all screen sizes */
+/*
+@media screen and (max-width: 375px) {
+    container{
+        width:  375px ;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    container{
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    container{
+        width: 1440px ;
+    }
+}
+*/
